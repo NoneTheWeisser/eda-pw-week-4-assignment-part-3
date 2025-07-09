@@ -15,8 +15,13 @@ return true;
 
 function addItem(item){
     console.log(`in addItem`, item);
-basket.push(item);
-return true;
+  if (isFull() === false) {
+    basket.push(item);
+    return true;  
+} else {
+    console.log(`basket is full`);
+    return false;
+}
 }
 
 console.log(`Basket is ${basket}`);
@@ -44,11 +49,11 @@ empty();
 console.log(`Basket after emptying: ${basket}`);
 
 
-addItem(`peach`);
-addItem(`pear`);
-addItem(`tea`);
-listItems();
-console.log(`basket is now ${basket}`);
+// addItem(`peach`);
+// addItem(`pear`);
+// addItem(`tea`);
+// listItems();
+// console.log(`basket is now ${basket}`);
 
 function isFull(){
     console.log(`in isFull`);
