@@ -5,7 +5,7 @@ console.log('***** Cart Functions *****');
 let basket = [];
 const maxItems = 5;
 
-/* code before stretch goals
+/* --> code before stretch goals
 function addItem(item){
     console.log(`in addItem`, item);
 basket.push(item);
