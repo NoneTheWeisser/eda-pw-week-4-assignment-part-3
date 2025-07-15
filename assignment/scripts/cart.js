@@ -2,7 +2,7 @@ console.log('***** Cart Functions *****');
 // Make sure to test all functions here in the JS file!
 // We want to see how you are testing your code!!!
 
-let basket = [];
+const basket = []; 
 const maxItems = 5;
 
 /* --> code before stretch goals
@@ -51,7 +51,7 @@ console.log(`Basket after emptying: ${basket}`);
 
 // addItem(`peach`);
 // addItem(`pear`);
-// addItem(`tea`);
+// addItem(`tea`);x
 // listItems();
 // console.log(`basket is now ${basket}`);
 
