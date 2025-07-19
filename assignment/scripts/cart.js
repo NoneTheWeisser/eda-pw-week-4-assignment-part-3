@@ -30,8 +30,9 @@ console.log(`basket is now ${basket}`);
 
 function listItems(){
     console.log(`in listItem`);
-for(let i = 0; i < basket.length; i++)
+for(let i = 0; i < basket.length; i++) {
     console.log(basket[i]);
+}
 }
 
 addItem(`apple`);
